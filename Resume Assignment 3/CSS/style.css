@@ -8,21 +8,24 @@ h1 { text-align: center; font-family: 'Courier New', Courier, monospace; font-si
 
 h2 { text-align: center; 
     border: 1px solid; border-right-style: none ; border-left-style: none ; border-top: none;
-    color: aliceblue;
-}
+    color: aliceblue; margin-bottom: 3%;
+}  
 #who {
-    text-align: center; font-size: xx-large;
-    color: aliceblue; border: 1px solid; border-left: none; border-right: none; border-width: 1mm;
+    text-align: center; font-size: x-large;
+    color: aliceblue; border: 1px solid; border-left: none; border-right: none; border-width: 1px;
+border-top: none;
 }
 
 img {
-    max-width: 350px; border-radius: 60%;
-    height: 500px;
-    align-content: center ; align-content: top;
+    max-width: 250px; border-radius: 60%;
+    height: 400px;
+
+   
 }
-#Lo { text-align: right; color: aliceblue; font-size: larger; justify-content: center;
-    padding-left: 50pc
-      ;
+#Lo { text-align: center; color: aliceblue; font-size: larger; justify-content: center;
+    padding-left: pc;
+    float: right;
+    word-wrap: normal;
 }
 #lip {  color: aliceblue; text-align: right;
 }
@@ -53,6 +56,13 @@ h3 {
 #ulfooter {
     text-align: right; list-style-type: none;
 }
+
+.work-item {
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+
+
 
 html {
     width: px;
